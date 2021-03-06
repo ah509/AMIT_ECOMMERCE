@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/cart_fragment">
+
+    <fragment
+        android:id="@+id/cart_fragment"
+        android:name="hossny.myhossny.amitproject.ui.fragment.cart.carttFragment"
+        android:label="fragment_cartt"
+        tools:layout="@layout/fragment_cartt" />
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="hossny.myhossny.amitproject.ui.fragment.category.cateogaryFragment"
+        android:label="fragment_cateogary"
+        tools:layout="@layout/fragment_cateogary" />
+    <fragment
+        android:id="@+id/profile_fragment"
+        android:name="hossny.myhossny.amitproject.ui.fragment.profileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/homefragmnt"
+        android:name="hossny.myhossny.amitproject.ui.fragment.home.homeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homefragmnt_to_categoryFragment"
+            app:destination="@id/categoryFragment" />
+    </fragment>
+</navigation>

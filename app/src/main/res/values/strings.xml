@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AmitProject</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="create_new_acc_msg">create new account</string>
+    <string name="sign_up_btn">sign up</string>
+    <string name="pass">password</string>
+    <string name="email">email</string>
+    <string name="phone">mobile</string>
+    <string name="have_already_acc">have already account</string>
+    <string name="create_new_account_mssg">create new account?</string>
+    <string name="sign_in_btn">sign in</string>
+    <string name="username">user name</string>
+</resources>

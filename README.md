@@ -9,7 +9,7 @@
 -   products
 -   profile
 ###  describtion
--Amit Is a E_commerce app to used it to show the company categoreis and products and buy 
+- Amit Is a E_commerce app to used it to show the company categoreis and products and buy 
 by a very easy way
 #### technolgy
 - java - Official Programming Language For Android Development
@@ -19,5 +19,5 @@ by a very easy way
 - retrofit A Tybe Safe Httb Client For Android And java
 
 ##### how to use
-just register and it will go to categories screen to choose your categories and then to the product screen 
+- just register and it will go to categories screen to choose your categories and then to the product screen 
 and put anything in your cart and buy it
